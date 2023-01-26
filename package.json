@@ -7,7 +7,9 @@
   "author": "Patrick Reagan <patrick@the-reagans.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prebuild": "rimraf dist",
+    "build": "tsc --project tsconfig.build.json"
   },
   "prettier": {
     "singleQuote": true,
@@ -21,6 +23,11 @@
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "eslint": "^8.32.0",
+    "rimraf": "^4.1.2",
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "slonik": "^33.0.6",
+    "slonik-sql-tag-raw": "^2.0.0"
   }
 }
