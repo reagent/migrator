@@ -1,5 +1,5 @@
 {
-  "name": "migrator",
+  "name": "@reagent/migrator",
   "version": "0.1.0",
   "description": "Simple PostgreSQL migrator using Slonik",
   "main": "dist/index.js",
