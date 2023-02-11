@@ -1,1 +1,1 @@
-export { MigratorOptions, Migrator } from './migrator';
+export { SOURCE, MigratorOptions, Migrator } from './migrator';
