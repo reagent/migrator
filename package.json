@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint .",
     "prebuild": "rimraf dist",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "tsc --project tsconfig.build.json",
+    "prepack": "yarn build"
   },
   "prettier": {
     "singleQuote": true,
