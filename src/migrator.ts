@@ -1,5 +1,5 @@
-import * as path from 'path';
-import * as fs from 'fs';
+import path from 'path';
+import fs from 'fs';
 
 import { DatabasePool, createSqlTag } from 'slonik';
 import { raw } from 'slonik-sql-tag-raw';
