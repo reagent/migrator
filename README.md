@@ -55,4 +55,20 @@ You can run them with `ts-node` or tie them into your build process:
 $ yarn ts-node src/db/migrator.ts
 ```
 
+The migrator also supports logging with [`@reagent/logging`][@reagent/logging]
+or a compatible logging interface:
+
+```typescript
+import { createLogger } from '@reagent/logging';
+
+(async () => {
+  // ...
+  const logger = createLogger({ stdout: true });
+
+  const migrator = new Migrator({ migrationsPath, pool, logger });
+  await migrator.migrate();
+})();
+```
+
 [token]: https://github.com/settings/tokens
+[@reagent/logging]: https://github.com/reagent/logging
