@@ -1,6 +1,0 @@
-src
-*.tgz
-.nvmrc
-.eslint*
-tsconfig.json
-tsconfig.build.json
