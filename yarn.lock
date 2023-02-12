@@ -73,8 +73,8 @@
 
 "@reagent/logging@^0.1.0":
   version "0.1.0"
-  resolved "https://npm.pkg.github.com/download/@reagent/logging/0.1.0/74d7f72806b01ec92cf1730434e25646445e75df#74d7f72806b01ec92cf1730434e25646445e75df"
-  integrity sha512-rpOtZ3lo6BJwW9QwpxX6KEnefiEfMMfwdg6mUTnVlZRb98me5fk+0hYFJegO9sCKTqUfnwwd8drKlmO/NbXm2Q==
+  resolved "https://registry.yarnpkg.com/@reagent/logging/-/logging-0.1.0.tgz#0507e0011369c203c90a912e1f5ee8bb03055529"
+  integrity sha512-raJeHFTk/VvNulX2gd0Pfy3WQRsIFwpfcc9DUhEPne8CsyVIjWtWW2w9x0gPAMXZ0hFK+/N1IintAgKb/qq4Yg==
   dependencies:
     safe-stable-stringify "^2.4.2"
     winston "^3.8.2"
