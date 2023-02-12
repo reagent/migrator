@@ -10,7 +10,8 @@ on:
       - master
 
 env:
-  GITHUB_TOKEN: ${{ secrets._GITHUB_TOKEN }}
+  # We don't need an actual token, just make sure replacement doesn't fail
+  NPM_TOKEN:
 
 jobs:
   lint:
