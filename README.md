@@ -4,20 +4,10 @@ Run sequential migration files against a PostgreSQL database.
 
 ## Installation
 
-Create a [personal access token][token] with at least `read:packages`
-permissions and configure NPM:
+Install from NPM:
 
 ```
-cat <<EOF >> .npmrc
-@reagent:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=\${GITHUB_TOKEN}
-EOF
-```
-
-Using your token, install the package:
-
-```
-$ GITHUB_TOKEN=<your token> yarn add @reagent/migrator
+$ yarn add @reagent/migrator
 ```
 
 ## Usage
@@ -70,5 +60,4 @@ import { createLogger } from '@reagent/logging';
 })();
 ```
 
-[token]: https://github.com/settings/tokens
 [@reagent/logging]: https://github.com/reagent/logging
